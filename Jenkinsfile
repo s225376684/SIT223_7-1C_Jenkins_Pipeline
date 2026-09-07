@@ -46,9 +46,10 @@ pipeline {
             }
         }
     }
+    // add post action to trigger commit
     post {
         always {
-            echo "Completed"
+            echo "Pipeline Completed"
         }
     }
 }
